@@ -1,0 +1,11 @@
+/Users/christophertero/Development/Code_Challenges/VertaforeCodeExercise/VertaforeCodeExercise/bin/Debug/netcoreapp3.0/ArrayScrambler
+/Users/christophertero/Development/Code_Challenges/VertaforeCodeExercise/VertaforeCodeExercise/bin/Debug/netcoreapp3.0/ArrayScrambler.deps.json
+/Users/christophertero/Development/Code_Challenges/VertaforeCodeExercise/VertaforeCodeExercise/bin/Debug/netcoreapp3.0/ArrayScrambler.runtimeconfig.json
+/Users/christophertero/Development/Code_Challenges/VertaforeCodeExercise/VertaforeCodeExercise/bin/Debug/netcoreapp3.0/ArrayScrambler.runtimeconfig.dev.json
+/Users/christophertero/Development/Code_Challenges/VertaforeCodeExercise/VertaforeCodeExercise/bin/Debug/netcoreapp3.0/ArrayScrambler.dll
+/Users/christophertero/Development/Code_Challenges/VertaforeCodeExercise/VertaforeCodeExercise/bin/Debug/netcoreapp3.0/ArrayScrambler.pdb
+/Users/christophertero/Development/Code_Challenges/VertaforeCodeExercise/VertaforeCodeExercise/obj/Debug/netcoreapp3.0/ArrayScrambler.csprojAssemblyReference.cache
+/Users/christophertero/Development/Code_Challenges/VertaforeCodeExercise/VertaforeCodeExercise/obj/Debug/netcoreapp3.0/ArrayScrambler.AssemblyInfoInputs.cache
+/Users/christophertero/Development/Code_Challenges/VertaforeCodeExercise/VertaforeCodeExercise/obj/Debug/netcoreapp3.0/ArrayScrambler.AssemblyInfo.cs
+/Users/christophertero/Development/Code_Challenges/VertaforeCodeExercise/VertaforeCodeExercise/obj/Debug/netcoreapp3.0/ArrayScrambler.dll
+/Users/christophertero/Development/Code_Challenges/VertaforeCodeExercise/VertaforeCodeExercise/obj/Debug/netcoreapp3.0/ArrayScrambler.pdb

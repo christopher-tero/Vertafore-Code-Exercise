@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{A3C353A8-333A-4D79-9308-72B4E678E9FD}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="VertaforeCodeExercise/Program.cs">
+    <Files>
+      <File FileName="VertaforeCodeExercise/Program.cs" Line="13" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="VertaforeCodeExercise" expanded="True">
+            <Node name="VertaforeCodeExercise" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.ArrayScrambler PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

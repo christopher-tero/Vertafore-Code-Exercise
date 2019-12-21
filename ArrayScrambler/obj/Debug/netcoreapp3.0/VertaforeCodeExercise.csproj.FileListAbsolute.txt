@@ -1,0 +1,11 @@
+/Users/christophertero/Development/Code_Challenges/VertaforeCodeExercise/VertaforeCodeExercise/obj/Debug/netcoreapp3.0/VertaforeCodeExercise.csprojAssemblyReference.cache
+/Users/christophertero/Development/Code_Challenges/VertaforeCodeExercise/VertaforeCodeExercise/obj/Debug/netcoreapp3.0/VertaforeCodeExercise.AssemblyInfoInputs.cache
+/Users/christophertero/Development/Code_Challenges/VertaforeCodeExercise/VertaforeCodeExercise/obj/Debug/netcoreapp3.0/VertaforeCodeExercise.AssemblyInfo.cs
+/Users/christophertero/Development/Code_Challenges/VertaforeCodeExercise/VertaforeCodeExercise/bin/Debug/netcoreapp3.0/VertaforeCodeExercise
+/Users/christophertero/Development/Code_Challenges/VertaforeCodeExercise/VertaforeCodeExercise/bin/Debug/netcoreapp3.0/VertaforeCodeExercise.deps.json
+/Users/christophertero/Development/Code_Challenges/VertaforeCodeExercise/VertaforeCodeExercise/bin/Debug/netcoreapp3.0/VertaforeCodeExercise.runtimeconfig.json
+/Users/christophertero/Development/Code_Challenges/VertaforeCodeExercise/VertaforeCodeExercise/bin/Debug/netcoreapp3.0/VertaforeCodeExercise.runtimeconfig.dev.json
+/Users/christophertero/Development/Code_Challenges/VertaforeCodeExercise/VertaforeCodeExercise/bin/Debug/netcoreapp3.0/VertaforeCodeExercise.dll
+/Users/christophertero/Development/Code_Challenges/VertaforeCodeExercise/VertaforeCodeExercise/bin/Debug/netcoreapp3.0/VertaforeCodeExercise.pdb
+/Users/christophertero/Development/Code_Challenges/VertaforeCodeExercise/VertaforeCodeExercise/obj/Debug/netcoreapp3.0/VertaforeCodeExercise.dll
+/Users/christophertero/Development/Code_Challenges/VertaforeCodeExercise/VertaforeCodeExercise/obj/Debug/netcoreapp3.0/VertaforeCodeExercise.pdb
