@@ -1,14 +1,15 @@
-﻿<Properties StartupConfiguration="{C7B2F786-A7EB-45D5-AF8E-57471A6CDBD8}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ArrayScrambler.cs">
+﻿<Properties StartupConfiguration="{87DF5FCC-5E8E-41F6-B387-DAD2E7A24567}|Default">
+  <MonoDevelop.Ide.ItemProperties.WordAbbreviator FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="WordAbbreviator/Program.cs">
     <Files>
-      <File FileName="ArrayScrambler.cs" Line="1" Column="1" />
+      <File FileName="WordAbbreviator/Program.cs" Line="7" Column="28" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="ArrayScrambler" expanded="True">
-            <Node name="ArrayScrambler" expanded="True">
-              <Node name="ArrayScrambler.cs" selected="True" />
+          <Node name="WordAbbreviator" expanded="True">
+            <Node name="WordAbbreviator" expanded="True">
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -18,7 +19,6 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.ArrayScrambler PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

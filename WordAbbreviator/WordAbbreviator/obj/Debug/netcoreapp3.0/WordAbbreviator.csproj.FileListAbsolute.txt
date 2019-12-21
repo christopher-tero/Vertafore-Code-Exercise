@@ -1,0 +1,11 @@
+/Users/christophertero/Development/Code_Challenges/VertaforeCodeExercise/WordAbbreviator/WordAbbreviator/bin/Debug/netcoreapp3.0/WordAbbreviator
+/Users/christophertero/Development/Code_Challenges/VertaforeCodeExercise/WordAbbreviator/WordAbbreviator/bin/Debug/netcoreapp3.0/WordAbbreviator.deps.json
+/Users/christophertero/Development/Code_Challenges/VertaforeCodeExercise/WordAbbreviator/WordAbbreviator/bin/Debug/netcoreapp3.0/WordAbbreviator.runtimeconfig.json
+/Users/christophertero/Development/Code_Challenges/VertaforeCodeExercise/WordAbbreviator/WordAbbreviator/bin/Debug/netcoreapp3.0/WordAbbreviator.runtimeconfig.dev.json
+/Users/christophertero/Development/Code_Challenges/VertaforeCodeExercise/WordAbbreviator/WordAbbreviator/bin/Debug/netcoreapp3.0/WordAbbreviator.dll
+/Users/christophertero/Development/Code_Challenges/VertaforeCodeExercise/WordAbbreviator/WordAbbreviator/bin/Debug/netcoreapp3.0/WordAbbreviator.pdb
+/Users/christophertero/Development/Code_Challenges/VertaforeCodeExercise/WordAbbreviator/WordAbbreviator/obj/Debug/netcoreapp3.0/WordAbbreviator.csprojAssemblyReference.cache
+/Users/christophertero/Development/Code_Challenges/VertaforeCodeExercise/WordAbbreviator/WordAbbreviator/obj/Debug/netcoreapp3.0/WordAbbreviator.AssemblyInfoInputs.cache
+/Users/christophertero/Development/Code_Challenges/VertaforeCodeExercise/WordAbbreviator/WordAbbreviator/obj/Debug/netcoreapp3.0/WordAbbreviator.AssemblyInfo.cs
+/Users/christophertero/Development/Code_Challenges/VertaforeCodeExercise/WordAbbreviator/WordAbbreviator/obj/Debug/netcoreapp3.0/WordAbbreviator.dll
+/Users/christophertero/Development/Code_Challenges/VertaforeCodeExercise/WordAbbreviator/WordAbbreviator/obj/Debug/netcoreapp3.0/WordAbbreviator.pdb
