@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{87DF5FCC-5E8E-41F6-B387-DAD2E7A24567}|Default">
-  <MonoDevelop.Ide.ItemProperties.WordAbbreviator FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.WordAbbreviator PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="WordAbbreviator/Program.cs">
     <Files>
-      <File FileName="WordAbbreviator/Program.cs" Line="7" Column="28" />
+      <File FileName="WordAbbreviator/Program.cs" Line="73" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,9 +13,6 @@
             </Node>
           </Node>
         </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
