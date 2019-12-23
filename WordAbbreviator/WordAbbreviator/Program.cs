@@ -4,12 +4,16 @@ using System.Text.RegularExpressions;
 
 namespace WordAbbreviator
 {
-    public class Abbreviator
+    public static class Abbreviator
     {
 
         public static string Abbreviate(string word)
         {
-            if (!Regex.IsMatch(word, @"^[a-zA-Z]+$"))
+            if (word.Length == 0)
+            {
+                return "No word was given";
+            }
+            else if (!Regex.IsMatch(word, @"^[a-zA-Z]+$"))
             {
                 return "Invalid entry";
             }
@@ -19,13 +23,9 @@ namespace WordAbbreviator
                 string abbreviation = word[0] + middleLetters.ToString() + word[word.Length - 1];
                 return abbreviation;
             }
-            else if (word.Length > 0)
-            {
-                return word;
-            }
             else
             {
-                return "No word was given";
+                return word;
             }
         }
 
@@ -45,7 +45,7 @@ namespace WordAbbreviator
         }
     }
 
-    public class CheckUniqueness
+    public static class CheckUniqueness
     {
         public static string[] testDictionary = { "internationalization", "localization", "accessibility", "automatically" };
 
@@ -66,8 +66,7 @@ namespace WordAbbreviator
 
         public static Dictionary<string, int> AbbreviateDictionary(string[] array)
         {
-            string[] arrayToCheck;
-            arrayToCheck = AbbreviateArray(array);
+            string[] arrayToCheck = AbbreviateArray(array);
 
             Dictionary<string, int> dictionary = new Dictionary<string, int>();
 
@@ -113,17 +112,19 @@ namespace WordAbbreviator
     {
         static void Main()
         {
-            // Abbreviator tests
-            Console.WriteLine(Abbreviator.Abbreviate("Hello")); // expecting H3o
-            Console.WriteLine(Abbreviator.Abbreviate("Antidisestablishmentarianism")); // expecting A26m
-            Console.WriteLine(Abbreviator.Abbreviate("Invalid string")); // expecting Invalid Entry
-            Console.WriteLine(Abbreviator.Abbreviate("H3ll0")); // expecting Invalid Entry
+            Console.WriteLine("Abbreviator word tests:");
+            Console.WriteLine("Hello: " + Abbreviator.Abbreviate("Hello")); // expecting H3o
+            Console.WriteLine("Antidisestablishmentarianism: " + Abbreviator.Abbreviate("Antidisestablishmentarianism")); // expecting A26m
+            Console.WriteLine("Invalid string: " + Abbreviator.Abbreviate("Invalid string")); // expecting Invalid Entry
+            Console.WriteLine("H3ll0: " + Abbreviator.Abbreviate("H3ll0")); // expecting Invalid Entry
+            Console.WriteLine("");
 
-            // Abbreviation uniqueness test
-            Console.WriteLine(CheckUniqueness.IsWordUnique("internationalization"));
-            Console.WriteLine(CheckUniqueness.IsWordUnique("localization"));
-            Console.WriteLine(CheckUniqueness.IsWordUnique("accessibility"));
-            Console.WriteLine(CheckUniqueness.IsWordUnique("automatically"));
+            Console.WriteLine("Abbreviation dictionary uniqueness test:");
+            Console.WriteLine("internationalization: " + CheckUniqueness.IsWordUnique("internationalization"));
+            Console.WriteLine("localization: " + CheckUniqueness.IsWordUnique("localization"));
+            Console.WriteLine("accessibility: " + CheckUniqueness.IsWordUnique("accessibility"));
+            Console.WriteLine("automatically: " + CheckUniqueness.IsWordUnique("automatically"));
+            Console.WriteLine("");
 
             Abbreviator.ConsoleAbbreviator();
         }

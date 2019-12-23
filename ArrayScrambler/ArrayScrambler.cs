@@ -1,8 +1,12 @@
 ﻿using System;
 
+// Note: as the question indicated that the arrays are already sorted integer
+// arrays, I have not implemented filters to ensure arrays are sorted integers.
+// If such filters are required, please let me know and I will add them.
+
 namespace VertaforeCodeExercise
 {
-    public class ScrambleArray
+    public static class ScrambleArray
     {
         public static void ScrambleNumbers(int[] array)
         {
