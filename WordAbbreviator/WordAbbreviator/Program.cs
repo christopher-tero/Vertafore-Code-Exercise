@@ -31,9 +31,17 @@ namespace WordAbbreviator
 
         public static void ConsoleAbbreviator()
         {
-            string userInput = Console.ReadLine();
-            string abbreviatedInput = Abbreviate(userInput);
-            Console.WriteLine(abbreviatedInput);
+            string userInput = "";
+            while(userInput != "exit")
+            {
+                Console.WriteLine("Please enter word to abbreviate, or type 'exit' to exit:");
+                userInput = Console.ReadLine();
+                if (userInput != "exit")
+                {
+                    string abbreviatedInput = Abbreviate(userInput);
+                    Console.WriteLine(abbreviatedInput);
+                }
+            }
         }
     }
 
