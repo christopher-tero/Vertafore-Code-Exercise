@@ -6,7 +6,6 @@ namespace WordAbbreviator
 {
     public class Abbreviator
     {
-        public static string[] dictionary = { "internationalization", "localization", "accessibility", "automatically" };
 
         public static string Abbreviate(string word)
         {
@@ -29,10 +28,19 @@ namespace WordAbbreviator
                 return "No word was given";
             }
         }
+
+        public static void ConsoleAbbreviator()
+        {
+            string userInput = Console.ReadLine();
+            string abbreviatedInput = Abbreviate(userInput);
+            Console.WriteLine(abbreviatedInput);
+        }
     }
 
     public class CheckUniqueness
     {
+        public static string[] testDictionary = { "internationalization", "localization", "accessibility", "automatically" };
+
         public static string[] AbbreviateArray(string[] array)
         {
             int size = array.Length;
@@ -73,7 +81,7 @@ namespace WordAbbreviator
         public static bool IsWordUnique(string word)
         {
             string abbreviatedWord = Abbreviator.Abbreviate(word);
-            Dictionary<string, int> abbreviatedDictionary = AbbreviateDictionary(Abbreviator.dictionary);
+            Dictionary<string, int> abbreviatedDictionary = AbbreviateDictionary(testDictionary);
 
             foreach (var item in abbreviatedDictionary)
             {
@@ -101,16 +109,15 @@ namespace WordAbbreviator
             Console.WriteLine(Abbreviator.Abbreviate("Hello")); // expecting H3o
             Console.WriteLine(Abbreviator.Abbreviate("Antidisestablishmentarianism")); // expecting A26m
             Console.WriteLine(Abbreviator.Abbreviate("Invalid string")); // expecting Invalid Entry
-            Console.WriteLine(Abbreviator.Abbreviate("H4ll0")); // expecting Invalid Entry
-
-            string[] dictionary = { "internationalization", "localization", "accessibility", "automatically" };
-            CheckUniqueness.AbbreviateDictionary(dictionary);
+            Console.WriteLine(Abbreviator.Abbreviate("H3ll0")); // expecting Invalid Entry
 
             // Abbreviation uniqueness test
             Console.WriteLine(CheckUniqueness.IsWordUnique("internationalization"));
             Console.WriteLine(CheckUniqueness.IsWordUnique("localization"));
             Console.WriteLine(CheckUniqueness.IsWordUnique("accessibility"));
             Console.WriteLine(CheckUniqueness.IsWordUnique("automatically"));
+
+            Abbreviator.ConsoleAbbreviator();
         }
     }
 }
