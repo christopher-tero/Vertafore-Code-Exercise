@@ -113,7 +113,7 @@ namespace WordAbbreviator
     {
         static void Main()
         {
-            // Abbreviator test
+            // Abbreviator tests
             Console.WriteLine(Abbreviator.Abbreviate("Hello")); // expecting H3o
             Console.WriteLine(Abbreviator.Abbreviate("Antidisestablishmentarianism")); // expecting A26m
             Console.WriteLine(Abbreviator.Abbreviate("Invalid string")); // expecting Invalid Entry

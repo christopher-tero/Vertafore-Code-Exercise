@@ -6,10 +6,16 @@ namespace VertaforeCodeExercise
     {
         public static void ScrambleNumbers(int[] array)
         {
-            int arrayLength = array.Length;
             Random random = new Random();
 
-            for (int i = arrayLength - 1; i > 0; i--)
+            Console.Write("Original array:  ");
+            foreach (int i in array)
+            {
+                Console.Write(i + " ");
+            }
+            Console.WriteLine("");
+
+            for (int i = array.Length - 1; i > 0; i--)
             {
                 int j = random.Next(0, i + 1);
                 int temporary = array[i];
@@ -17,11 +23,12 @@ namespace VertaforeCodeExercise
                 array[j] = temporary;
             }
 
+            Console.Write("Scrambled array: ");
             foreach (int i in array)
             {
                 Console.Write(i + " ");
             }
-            Console.Write("\n");
+            Console.WriteLine("\n");
         }
     }
 
@@ -32,11 +39,14 @@ namespace VertaforeCodeExercise
             // Test Arrays
             int[] firstArray = { 7, 13, 13, 18, 29, 33 };
             int[] secondArray = { 33, 29, 18, 13, 13, 7 };
+            int[] thirdArray = { 2, 5, 8, 8 };
+            int[] fourthArray = { 100, 99, 98, 97, 96, 5, 4, 3, 2, 1, 0 };
 
             // Test Cases
             ScrambleArray.ScrambleNumbers(firstArray);
             ScrambleArray.ScrambleNumbers(secondArray);
-            return;
+            ScrambleArray.ScrambleNumbers(thirdArray);
+            ScrambleArray.ScrambleNumbers(fourthArray);
         }
     }
 }
